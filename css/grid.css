@@ -4,6 +4,12 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ #main_header{
+  background-image: url("https://my.spline.design/untitled-3a0d296a41c2afd41b0c7f9b9a93e13c/");
+  height: 100vh;
+ }
+
  .container,
  .container-fluid,
  .container-xxl,
@@ -17,7 +23,8 @@
    margin-right: auto;
    margin-left: auto;
  }
- 
+
+
  @media (min-width: 576px) {
    .container-sm, .container {
      max-width: 540px;
